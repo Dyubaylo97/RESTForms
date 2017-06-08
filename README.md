@@ -27,6 +27,22 @@
 ## Пути
 Далее представлена таблица доступных методов API, которая демонстрирует то, что Вы можете сделать через RESTForms.
 
+|                      URL                         |                   Description                     |
+|--------------------------------------------------|---------------------------------------------------|
+| info                                             | List of all available classes                     |
+| info/all                                         | Get metadata for all classes                      |
+| info/:class                                      | Class metadata                                    |
+| field/:class                                     | Add property to class                             |
+| field/:class                                     | Modify class property                             |
+| field/:class/:property                           | Delete class property                             |
+| object/:class/:id                                | Retrieve object                                   |
+| object/:class/:id/:property                      | Retrieve one property of the object               |
+| object/:class                                    | Create object                                     |
+| object/:class/:id                                | Update object from dynamic object                 |
+| object/:class                                    | Update object from object                         |
+| object/:class/:id                                | Delete object                                     |
+| objects/:class/:query                            | (SQL) Get objects for the class by query          |
+| objects/:class/custom/:query                     | (SQL) Get objects for the class by custom query   |
 
 ## Как начать использовать RESTForms?
 
